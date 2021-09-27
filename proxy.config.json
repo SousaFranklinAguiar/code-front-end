@@ -1,0 +1,8 @@
+{
+    "/api/*":{
+        "target":"https://categorias-teste.herokuapp.com",
+        "secure":true,
+        "logLevel":"debug",
+        "pathRewrite":{"^/api": ""}
+    }
+}
